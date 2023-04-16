@@ -71,7 +71,7 @@ public class task3 {
             String[] expressions = expression.split(Pattern.quote(operation), 2);
             // check if user input something like "*4" or ...
             // be aware, that "+4" or "-4" will be caught by parseDouble
-            if ((expressions[0].length() == 0 || expressions[1].length() == 0) && allowSingleNumber) {
+            if ((expressions[0].length() == 0 || expressions[1].length() == 0) && !allowSingleNumber) {
                 throw new ArithmeticException(String.format("Cant use operator %s like this", operation));
             }
             switch (operation){

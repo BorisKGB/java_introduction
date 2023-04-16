@@ -5,6 +5,7 @@ public class task2 {
     public static void main(String[] args) {
         int start = 1;
         int end = 1000;
+        System.out.printf("Prime numbers from %d to %d:\n", start, end);
         for (int i=start; i<=end; i++) {
             if (isPrimeNumber(i)) System.out.println(i);
         }

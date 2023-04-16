@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 public class task1 {
     // Вычислить
     // 1. n-ое треугольного число (сумма чисел от 1 до n)
-    // 2, n! (произведение чисел от 1 до n)
+    // 2. n! (произведение чисел от 1 до n)
     public static void main(String[] args) {
         int number = safeReadInt("input number: ");
 
